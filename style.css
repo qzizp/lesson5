@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #0A0A36 url("./decor/tapeta-zamek-hogwarts-noca-min.jpg");
+  background-size: cover;
+
+}
+
+.wrapper {
+  width: 800px;
+  margin: 80px;
+}
+
+.address-book-table {
+  width: 580px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.5) url("./decor/table-bg-min-2.jpg");
+  border-collapse: collapse;
+  border-radius: 5px;
+}
+
+.t-header {
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.t-header td {
+  font-family: 'Neucha', cursive;
+}
+
+td {
+  width: 25%;
+  padding: 5px 10px;
+  border: 1px rgba(0, 0, 0, 0.2) dashed;
+}
+
+audio {
+  position: absolute;
+  top: 80px;
+  right: 80px;
+  opacity: 0.1;
+  transition: 0.3s;
+}
+
+audio:hover {
+  opacity: 1;
+}
