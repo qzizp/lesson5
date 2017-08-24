@@ -29,6 +29,8 @@ body {
 
 .t-header td {
   font-family: 'Neucha', cursive;
+  letter-spacing: 5px;
+  color: #B63800;
 }
 
 td {

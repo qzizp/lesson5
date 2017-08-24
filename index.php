@@ -1,5 +1,5 @@
 ﻿<?php 
-  $jsonData = file_get_contents(__DIR__ . "./address_book.json"); 
+  $jsonData = file_get_contents(__DIR__ . "/address_book.json"); 
   $data = json_decode($jsonData, true);
 ?>
 
